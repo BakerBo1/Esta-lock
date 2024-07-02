@@ -26,13 +26,13 @@ player.CharacterRemoving:Connect(function()
     tool.Parent = game.Players.LocalPlayer.Backpack
 end)
 
---Made By Bakerboi384, reworked by @FortniteCock911 on tiktok, Haafli helped on orbit thx
+--Made By @moonwalker.24
 
 --Heavily pasted btw just like aura x
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kpLzpNXc"))()
 
-local Window = Library:CreateWindow("Esta-Hub.cc by @fortnitecock911 on tiktok", Vector2.new(300, 300), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow("MoonWalker | Moonwalker.24", Vector2.new(300, 300), Enum.KeyCode.RightShift)
 local AkaliNotif =
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
     
@@ -48,6 +48,12 @@ testSection:AddButton(
     "RightClick",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+    end
+)
+testSection:AddButton(
+    "TpTool",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/TP-Tool/main/TP%20Tool'))()
     end
 )
 
