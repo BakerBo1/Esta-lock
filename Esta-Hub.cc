@@ -30,7 +30,7 @@ end)
 
 --Heavily pasted btw just like aura x
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/Pastebin-Gui-Lock/main/LOck"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kpLzpNXc"))()
 
 local Window = Library:CreateWindow("MoonWalker | Moonwalker.24", Vector2.new(300, 300), Enum.KeyCode.RightShift)
 local AkaliNotif =
